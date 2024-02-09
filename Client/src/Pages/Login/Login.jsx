@@ -137,11 +137,6 @@ const Login = () => {
 
   return (
     <div className="login">
-      <div>
-        <p>Please use this credentials.</p>
-        <p>Email : test@gmail.com</p>
-        <p>Password : test</p>
-      </div>
       <br />
       <div className="loginContainer">
         <div className="loginImage">

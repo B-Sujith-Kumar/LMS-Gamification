@@ -123,50 +123,26 @@ const Home = () => {
           <div className="charts">
             <div className="lineChart">
               <div className="chartHead">
-                <p>Premium Balance</p>
+                <p>Progress</p>
               </div>
-              <div className="chartBox">
-                <div className="chartOne">
-                  <ResponsiveContainer>
-                    <BarChart width={200} height={300} data={barData}>
-                      <XAxis dataKey="name" />
-                      <Tooltip />
-                      <Legend
-                        verticalAlign="top"
-                        wrapperStyle={{ lineHeight: "40px" }}
-                      />
-                      <ReferenceLine y={0} stroke="#000" />
-                      <Bar dataKey="Earning" fill="#8884d8" />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-                <div className="chartTwo">
-                  <div>
-                    <BsDownload />
-                    <div>
-                      <p>Income</p>
-                      <h4>$22,678</h4>
-                    </div>
-                    <p>+$456</p>
-                  </div>
-                  <div>
-                    <LiaHandHoldingUsdSolid />
-                    <div>
-                      <p>Expense</p>
-                      <h4>$12,057</h4>
-                    </div>
-                    <p>+$256</p>
-                  </div>
-                  <div>
-                    <PiCurrencyCircleDollarLight />
-                    <div>
-                      <p>Cashback</p>
-                      <h4>8,475</h4>
-                    </div>
-                    <p>+$256</p>
+              <center>
+                <div className="chartBox">
+                  <div className="chartOne">
+                    <ResponsiveContainer>
+                      <BarChart width={200} height={300} data={barData}>
+                        <XAxis dataKey="name" />
+                        <Tooltip />
+                        <Legend
+                          verticalAlign="top"
+                          wrapperStyle={{ lineHeight: "40px" }}
+                        />
+                        <ReferenceLine y={0} stroke="#000" />
+                        <Bar dataKey="Progress" fill="#8884d8" />
+                      </BarChart>
+                    </ResponsiveContainer>
                   </div>
                 </div>
-              </div>
+              </center>
             </div>
             <div className="pieChart">
               <div className="chartHead">

@@ -1,10 +1,10 @@
 export const barData = [
-  { name: "CS101", Earning: 65, Expense: 456 },
-  { name: "CS201", Earning: 50, Expense: 321 },
-  { name: "CS301", Earning: 80, Expense: 235 },
-  { name: "CS401", Earning: 25, Expense: 267 },
-  { name: "CS501", Earning: 90, Expense: 45 },
-  { name: "CS696", Earning: 65, Expense: 366 },
+  { name: "CS101", Progress: 65, Expense: 456 },
+  { name: "CS201", Progress: 50, Expense: 321 },
+  { name: "CS301", Progress: 80, Expense: 235 },
+  { name: "CS401", Progress: 25, Expense: 267 },
+  { name: "CS501", Progress: 90, Expense: 45 },
+  { name: "CS696", Progress: 65, Expense: 366 },
 ];
 
 export const pieData = [{ name: "Group A", value: 400 }];
